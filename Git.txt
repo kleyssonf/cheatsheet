@@ -1,0 +1,22 @@
+Git
+
+REMOVER BLOCO
+git init (start repository in local folder)
+git branch -M main  (Rename branch main. GitHub por alguma razão use this patternRenomear)
+git add . (Add all files in index(staged area))
+git commit -m "NeoVim e Git CheatSheet's"
+
+git init
+# Initializes a new repository in the current folder.
+
+git branch -M main
+# Renames the CURRENT branch to 'main' (standard naming convention used by GitHub).
+
+git add .
+# Stages all files in the current directory (adds them to the index).
+
+git commit -m "NeoVim and Git Cheat Sheets"
+# Commits the staged changes with a message.
+
+
+

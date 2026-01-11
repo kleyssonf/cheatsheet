@@ -19,5 +19,9 @@ git commit -m "NeoVim and Git Cheat Sheets"
 # Commits the staged changes with a message.
 
 git remote add origin https://github.com/seu-usuario/meu-projeto.git
-# Add the url for pushs
+# Você criou um atalho chamado "origin" que aponta para aquela URL longa do GitHub.
+
+git push -u
+# O -u (upstream) diz ao Git: "Daquele ponto em diante, sempre que eu der apenas git push, envie para o 
+# origin main sem eu precisar digitar tudo de novo"
 

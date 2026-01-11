@@ -8,8 +8,6 @@ V		Entra no Modo Visual de Linha (seleciona linhas inteiras).
 Ctrl + v	Entra no Modo Visual em Bloco (seleção vertical).
 :		Entra no Modo de Comando.
 
-teste
-
 NAVEGAÇÃO
 w / b		Próxima palavra (word) / Palavra anterior (back).
 0 / $		Início da linha / Fim da linha.

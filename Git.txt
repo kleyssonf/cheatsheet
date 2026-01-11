@@ -18,5 +18,6 @@ git add .
 git commit -m "NeoVim and Git Cheat Sheets"
 # Commits the staged changes with a message.
 
-
+git remote add origin https://github.com/seu-usuario/meu-projeto.git
+# Add the url for pushs
 

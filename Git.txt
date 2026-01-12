@@ -25,3 +25,9 @@ git push -u
 # O -u (upstream) diz ao Git: "Daquele ponto em diante, sempre que eu der apenas git push, envie para o 
 # origin main sem eu precisar digitar tudo de novo"
 
+git config --global user.name "Seu Nome Completo"
+# cabou o tempo
+git config --global user.email "seu.email@celepar.pr.gov.br"
+
+
+

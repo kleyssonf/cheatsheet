@@ -1,4 +1,4 @@
 - Esse arquivo foi criado após a criação da branch branchTesteParaVerOArquivoHEAD;
 - O arquivo HEAD continha o conteúdo: refs/heads/main e virou refs/heads/branchTesteParaVerOArquivoHEAD
-- Se liga: o arquivo HEAD apenas aponta o caminho de onde está a branch que estou trabalhando
-- As branchs ficam no caminho dados pelo arquivo HEAD........
+- Se liga: o arquivo HEAD apenas aponta o caminho de onde está a branch em que estou trabalhando
+- As branchs ficam no caminho dados pelo arquivo HEAD

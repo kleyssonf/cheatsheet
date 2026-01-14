@@ -34,5 +34,11 @@ git cat-file -p <hash de dentro do objects: 03, 06, etc>
 # p = pretty 
 # Exibe metadados do commit especificado
 
+git fetch
+# Busca o 
+
+git push origin branchTesteParaVerOArquivoHEAD
+# sincroniza com o remote
+
 
 

@@ -40,5 +40,7 @@ git fetch
 git push origin branchTesteParaVerOArquivoHEAD
 # sincroniza com o remote
 
+git status
+# mostra a diferença entre o index e working tree, entre working tree e o index
 
 

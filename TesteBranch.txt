@@ -2,3 +2,8 @@
 - O arquivo HEAD continha o conteúdo: refs/heads/main e virou refs/heads/branchTesteParaVerOArquivoHEAD
 - Se liga: o arquivo HEAD apenas aponta o caminho de onde está a branch em que estou trabalhando
 - As branchs ficam no caminho dados pelo arquivo HEAD
+
+13/01/2026
+- Na Celepar, fiz o git fetch e o git rebase
+- O git fetch: busca arquivos no remote sem alterar em nada meu código local (work directory)
+- 

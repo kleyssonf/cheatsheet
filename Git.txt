@@ -30,4 +30,9 @@ git config --global user.name "Seu Nome Completo"
 git config --global user.email "seu.email@celepar.pr.gov.br"
 
 
+git cat-file -p <hash de dentro do objects: 03, 06, etc> 
+# p = pretty 
+# Exibe metadados do commit especificado
+
+
 

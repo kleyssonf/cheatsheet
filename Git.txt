@@ -41,6 +41,6 @@ git push origin branchTesteParaVerOArquivoHEAD
 # sincroniza com o remote
 
 git status
-# mostra a diferença entre o index e working tree, entre working tree e o index
+# mostra a diferença entre o index e working tree, entre working tree e o index e arquivos untracked
 
 

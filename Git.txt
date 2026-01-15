@@ -42,4 +42,7 @@ git push origin branchTesteParaVerOArquivoHEAD
 git status
 # mostra a diferença entre o index e working tree, entre working tree e o index e arquivos untracked
 
+git pull --rebase
+# executa um pull antendo o histórico linear. Não entendi muito bem ainda
+
 

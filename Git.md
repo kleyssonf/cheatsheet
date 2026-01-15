@@ -43,7 +43,7 @@ git checkout -b <nome_branch>
 # cria e muda para a nova branch (muito possivelmente muda o HEAD)
 
 git diff --staged
-# Muito útil: compara e mostra as diferenças do que está no staged(index `git add .`) com o último commit
+# Muito útil: compara e mostra as diferenças do que está no staged(index <git add .>) com o último commit
 
 
 refs/heads/main 2153f4e5bfec800401bd39efb4f68a5b5bfdfd71

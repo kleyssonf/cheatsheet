@@ -2,7 +2,8 @@
 
 `git init`  
 Initializes a new repository in the current folder.  
-Perceba, este comando irá inicializar um repositório local  
+Perceba, este comando irá inicializar um repositório local criando a pasta .git. Nela há uma estrutura padrão do Git.
+Nesse momento, seus arquivos ainda não estão rastreados. Eles estão num status Untracked.
 
 `git branch -M main`  
 Renames the CURRENT branch to 'main' (standard naming convention used by GitHub).  
@@ -44,9 +45,10 @@ cria e muda para a nova branch (muito possivelmente muda o HEAD)
 `git diff --staged`  
 Muito útil: compara e mostra as diferenças do que está no staged(index `git add .`) com o último commit  
 
+`git pull --no-rebase`
+Executa o fetch, criando um commit de merge. É possível configurar o git para um comportamento padrão
+
 
 # Anotações
-refs/heads/main 2153f4e5bfec800401bd39efb4f68a5b5bfdfd71
 
-refs/remotes/origin/ branchTesteParaVerOArquivoHEAD(arquivo) main(arquivo)
 

@@ -14,8 +14,11 @@ Stages all files in the current directory (adds them to the index).
 `git commit -m "NeoVim and Git Cheat Sheets"`  
 Commits the staged changes with a message.  
 
+
 `git remote add origin https://github.com/seu-usuario/meu-projeto.git`  
-Você criou um atalho chamado "origin" que aponta para aquela URL longa do GitHub.  
+Você criou um atalho chamado "origin" que aponta para aquela URL longa do GitHub. 
+Após criar um repo remote (github).
+Antes desse comando o refs não tem ohDeLonge  
 
 `git push -u`  
 O -u (upstream) diz ao Git: "Daquele ponto em diante, sempre que eu der apenas git push, envie para o   
@@ -45,8 +48,11 @@ cria e muda para a nova branch (muito possivelmente muda o HEAD)
 `git diff --staged`  
 Muito útil: compara e mostra as diferenças do que está no staged(index `git add .`) com o último commit  
 
-`git pull --no-rebase`
+`git pull <remoteDeLonge> <remoteLocal> --no-rebase`
 Executa o fetch, criando um commit de merge. É possível configurar o git para um comportamento padrão
+
+`git pull ohDeLonge main --no-rebase --allow-unrelated-histories`
+Quando não há o base commit é necessário realizar esse comando. Isso ocorre quando se cria um repositório no github não vazio
 
 
 # Anotações

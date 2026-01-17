@@ -56,6 +56,8 @@ Ele basicamente executa um `git merge`
 `git pull ohDeLonge main --no-rebase --allow-unrelated-histories`
 Quando não há o base commit é necessário realizar esse comando. Isso ocorre quando se cria um repositório no github não vazio
 
+`gir reset --hard HEAD`  
+Move o ponteiro para o último commit da HEAD - Validar essa afirmação com o Gemini
 
 # Anotações
 

@@ -48,8 +48,10 @@ cria e muda para a nova branch (muito possivelmente muda o HEAD)
 `git diff --staged`  
 Muito útil: compara e mostra as diferenças do que está no staged(index `git add .`) com o último commit  
 
-`git pull <remoteDeLonge> <remoteLocal> --no-rebase`
-Executa o fetch, criando um commit de merge. É possível configurar o git para um comportamento padrão
+`git pull <remoteDeLonge> <remoteLocal> --no-rebase`  
+Executa o fetch, criando um **Merge Commit**. 
+Ele basicamente executa um `git merge`  
+É possível configurar o git para um comportamento padrão  
 
 `git pull ohDeLonge main --no-rebase --allow-unrelated-histories`
 Quando não há o base commit é necessário realizar esse comando. Isso ocorre quando se cria um repositório no github não vazio

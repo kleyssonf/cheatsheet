@@ -59,4 +59,5 @@ Quando não há o base commit é necessário realizar esse comando. Isso ocorre 
 
 # Anotações
 
+# Quando ver isso na Celepar, veja se na pasta refs/heads/ consta a branch master. A dev_celepar provavelmente sim.
 

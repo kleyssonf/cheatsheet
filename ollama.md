@@ -24,3 +24,9 @@ Executa o serviço ollama em sgunda instância
 
 `sudo systemctl start ollama`  
 Inicia o Ollama em modo serviço, dispensando o comando acima  
+
+## Problemas
+1 - na primeira instalação ele ficou extremamente lento. Em conversa com Gemini deu a entender que poderia ser falta de uso 
+da VGA. Fiz uma porrada de instrução de configuração da VGA e o Ollama melhorou. Mas ao investigar, percebi que continuava
+sem utilizar a VGA. Tentei resolver com o próprio Ollama e só papo furado. Voltei para o Gemini e a mesma coisa. Quando tentei
+com o chagrp: "Ollama oficialmente não usa GPU AMD no Linux/WSL para inferência via ROCm até hoje".

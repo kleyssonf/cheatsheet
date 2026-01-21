@@ -33,6 +33,10 @@ git config --global user.email "seu.email@celepar.pr.gov.br"
 p = pretty  
 Exibe metadados do commit especificado
 
+`git rev-parse HEAD`  
+Exibe o hash do último commit
+
+
 `git fetch`  
 Busca o conteúdo do remote, mas sem realizar o merge na sequência como ocorre no git pull (git fetch + git pull)  
 

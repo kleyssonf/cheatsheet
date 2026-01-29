@@ -69,6 +69,9 @@ Restaura o arquivo no worktree, substituindo-o pelo que estava no index/staged, 
 `git restore --staged <nome-arquivo>`  
 Remove do staged o arquivo passado  
 
+`git config --local init.defaultBranch main`   
+Configurou que futuros git init vão iniciar com a branch principal nomeada como 'main', mas não alterou a já existente master    
+
 # Anotações
 
 # Quando ver isso na Celepar, veja se na pasta refs/heads/ consta a branch master. A dev_celepar provavelmente sim.
